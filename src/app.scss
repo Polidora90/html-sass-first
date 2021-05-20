@@ -1,0 +1,29 @@
+$myColor: #ff00ff;
+
+$btnBackground: rgb(152, 161, 240);
+
+$myBorder: 3px solid $myColor;
+
+$linkColor: orange;
+
+h1 {
+    color: $myColor;
+}
+
+button {
+    background-color: $btnBackground;
+    color: $myColor;
+    border: $myBorder;
+}
+
+span {
+    color: $myColor;
+}
+
+a {
+    color: $linkColor;
+}
+
+a:hover {
+    color: $myColor;
+}
